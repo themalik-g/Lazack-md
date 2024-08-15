@@ -9,20 +9,19 @@ import moment from 'moment-timezone'
 let totalf = Object.values(global.plugins).filter(v => v.help && v.tags).length
 let tags = { 'main': 'Main' }
 const defaultMenu = {
-  before: `         ❮❮ 𝙼𝙴𝙽𝚄 ❯❯
+  before: `         ╔═══❮MALIK-𝙼𝙴𝙽𝚄❯═══╗
 ╔══════════════════════╗
-║ 🇹🇿 *𝙽𝚊𝚖𝚎:* ${global.author}            
-║ 🇹🇿 *𝚃𝚘𝚝𝚊𝚕:* ${totalf} + Features       
-║ 🇹🇿 *𝚅𝚎𝚛𝚜𝚒𝚘𝚗:* V-02                    
-║ 🇹🇿 *𝙿𝚛𝚎𝚏𝚒𝚡:* Any Prefix               
-║ 🇹🇿 *𝙾𝚠𝚗𝚎𝚛:* Lazack28                 
-║ 🇹🇿 *𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖:* Heroku                 
-╚══════════════════════╝
-    %readmore`.trimStart(),
+║  *𝙽𝚊𝚖𝚎:* ${global.author}            
+║  *𝚃𝚘𝚝𝚊𝚕:* ${totalf} + Features       
+║  *𝚅𝚎𝚛𝚜𝚒𝚘𝚗:* V-02                    
+║  *𝙿𝚛𝚎𝚏𝚒𝚡:* Any Prefix               
+║  *𝙾𝚠𝚗𝚎𝚛:* Lazack28                 
+║  *𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖:* Heroku                 
+╚══════════════════════╝`.trimStart(),
   header: ' ╔═══ ❨ *%category* ❩ ═══╗ ',
   body: ' ║➜ %cmd',
   footer: ' ╚════════════════╝\n',
-  after: `*Made by ♡ ${global.oname}`,
+  after: `*Made by MALIK MEHTAB ♡`,
 }
 
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
