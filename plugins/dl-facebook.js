@@ -16,7 +16,7 @@ const handler = async (m, { conn, args, usedPrefix, command }) => {
   try {
     const result = await fg.fbdl(args[0])
     const tex = `
-⊱ ─── {* GURU FBDL*} ─── ⊰
+⊱ ───𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆: 𝗠𝗔𝗟𝗜𝗞 𝗠𝗘𝗛𝗧𝗔𝗕─── ⊰
 ↳ *VIDEO TITLE:* ${result.title}
 ⊱ ────── {⋆♬⋆} ────── ⊰`
 
