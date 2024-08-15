@@ -21,8 +21,8 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 
     const { title, url, thumbnail } = result;
 
-    const captvid = '*join lazack md v2 support group, and just few second i will send you video*';
-    const sourceUrl = "https://chat.whatsapp.com/IIpL6gf6dcq4ial8gaJLE9";
+    const captvid = '*MALIK-MD IS DOWNLOADING YOUR SONG PLZ WAIT FOR A WHILE*';
+    const sourceUrl = "_*POWER BY: MALIK MEHTAB*_";
 
     conn.reply(m.chat, captvid, m, {
       contextInfo: {
