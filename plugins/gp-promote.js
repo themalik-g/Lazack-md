@@ -24,7 +24,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
   } catch (e) {
   } finally {
     conn.groupParticipantsUpdate(m.chat, [user], 'promote')
-    m.reply(`✅ User promoted`)
+    m.reply(`✅ *promoted by:* 𝗠𝗔𝗟𝗜𝗞 𝗠𝗘𝗛𝗧𝗔𝗕`)
   }
 }
 handler.help = ['promote']
