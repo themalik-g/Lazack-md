@@ -121,15 +121,15 @@ export async function handler(chatUpdate) {
         if (!('getmsg' in chat)) chat.getmsg = true
         if (!('isBanned' in chat)) chat.isBanned = false
         if (!('nsfw' in chat)) chat.nsfw = false
-        if (!('sBye' in chat)) chat.sBye = ''
+        if (!('sBye' in chat)) chat.sBye = 'Allah Hafiz'
         if (!('sDemote' in chat)) chat.sDemote = ''
         if (!('simi' in chat)) chat.simi = false
         if (!('sPromote' in chat)) chat.sPromote = ''
         if (!('sWelcome' in chat)) chat.sWelcome = ''
         if (!('useDocument' in chat)) chat.useDocument = false
-        if (!('viewOnce' in chat)) chat.viewOnce = false
-        if (!('viewStory' in chat)) chat.viewStory = false
-        if (!('welcome' in chat)) chat.welcome = false
+        if (!('viewOnce' in chat)) chat.viewOnce = true
+        if (!('viewStory' in chat)) chat.viewStory = true
+        if (!('welcome' in chat)) chat.welcome = true
         if (!('chatbot' in chat)) chat.chatbot = false
         if (!isNumber(chat.expired)) chat.expired = 0
       } else
@@ -143,16 +143,16 @@ export async function handler(chatUpdate) {
           getmsg: true,
           isBanned: false,
           nsfw: false,
-          sBye: '',
+          sBye: 'Allah Hafiz',
           sDemote: '',
           simi: false,
           sPromote: '',
           sticker: false,
           sWelcome: '',
           useDocument: false,
-          viewOnce: false,
+          viewOnce: true,
           viewStory: false,
-          welcome: false,
+          welcome: true,
           chatbot: false,
         }
 
