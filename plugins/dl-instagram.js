@@ -23,7 +23,7 @@ let handler = async (m, { conn, usedPrefix, args, command, text }) => {
     const mediaType = mediaData.type;
     const mediaURL = mediaData.url_download;
 
-    let cap = `HERE YOU GO ${mediaType.toUpperCase()} >,<`;
+    let cap = `𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆: 𝗠𝗔𝗟𝗜𝗞 𝗠𝗘𝗛𝗧𝗔𝗕 ${mediaType.toUpperCase()}`;
 
     if (mediaType === 'video') {
       
